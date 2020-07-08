@@ -427,6 +427,8 @@ body {
 	background: rgba(10, 10, 10, 0.5);
 	border-radius: 0px 25px 25px 0px;
 	box-shadow: 38px 20px 46px -23px rgba(0, 0, 0, 0.27);
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .sidebar-CFHs9e {
@@ -444,7 +446,7 @@ body {
   background: rgba(10, 10, 10, 0.5);
 	border-radius: 25px;
 	margin-left: 10px;
-	margin-right: 2px;
+	margin-right: 10px;
 }
 
 .membersWrap-2h-GB4, .da-members {
