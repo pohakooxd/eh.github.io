@@ -11,18 +11,15 @@
 @import url("https://cdn.discordapp.com/attachments/729185721771884623/730137048798855289/style_part04.css");
 @import url('https://fonts.googleapis.com/css2?family=Fondamento&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap");
-@import url("https://cdn.discordapp.com/attachments/730329426935676939/730329469830692914/glasscord.theme-1.css")
-@font-face {
-    font-family: 'Fondamento', cursive;
-}
+@import url("https://cdn.discordapp.com/attachments/730329426935676939/730329469830692914/glasscord.theme-1.css");
+@font-face { font-family: 'Fondamento', cursive;}
 :root {
     --Chat-Font-Used: 'Fondamento', normal;
     --Chat-Font-Size: 15.5px;
-    	/* Here you can define properties for use with Glasscord. */
-
+   	/* Here you can define properties for use with Glasscord. */
 	/* Windows-specific properties */
 	/* Blur mode. Available types: acrylic (strong blur), blurbehind (light blur), transparent */
-	--glasscord-win-blur: blurbehind;
+	--glasscord-win-blur: acrylic;
 	/* Acrylic mode makes some computers pretty unresponsive when resizing/moving the window.
 	   Should we work around it? */
 	--glasscord-win-performance-mode: true;
@@ -243,11 +240,6 @@ font-size: var(--Chat-Font-Size);
 	background-color: var(--background-attachments) !important;
 }
 
-.header-2o-2hj {
-	-webkit-box-shadow: none;
-	box-shadow: none;
-}
-
 .privateChannels-1nO12o {
 	background-color: transparent;
 }
@@ -456,5 +448,5 @@ body {
   margin-left: 10px;
   margin-right: 10px;
   margin-top: 10px;
-  margin-button: 10px;
+  margin: 10px;
 }
