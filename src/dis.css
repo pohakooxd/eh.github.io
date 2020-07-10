@@ -438,6 +438,8 @@ body {
   background: rgba(10, 10, 10, 0.5);
 	border-radius: 25px;
   margin: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .membersWrap-2h-GB4, .da-members {
@@ -453,9 +455,7 @@ body {
     border-radius: 25px 25px 25px 25px;
     box-shadow: 38px 20px 46px -23px rgba(0, 0, 0, 0.27);
 }
-* {
-  border-radius: 25px 25px 25px 25px;
-}
+
 [class*="sidebar"] {
   margin: 10px;
   margin-right: 10px;
@@ -483,4 +483,43 @@ body {
 }
 [class*="guilds-"] {
     margin-left: 5px;
+}
+.da-members {
+    margin: 10px;
+}
+.da-content {
+    border-radius: 0 0 0 0;
+}
+.da-mask {
+    border-radius: 0 0 0 0;
+}
+.da-header {
+    border-radius: 0 0 0 0;
+}
+.da-roleColor {
+    border-radius: 0 0 0 0;
+}
+[class*="username-"] {
+    border-radius: 0 0 0 0;
+}
+.da-layout {
+    border-radius: 0 0 0 0;
+}
+.da-member {
+    border-radius: 0 0 0 0;
+}
+.da-selected {
+    border-radius: 25px 25px 25px 25px;
+}
+.da-folderIconWrapper {
+    border-radius: 25px 25px 25px 25px;
+}
+[class*="selected"] {
+    border-radius: 25px 25px 25px 25px;
+}
+.da-anchor {
+    border-radius: 25px 25px 25px 25px;
+}
+[class*="-image"] {
+    border-radius: 25px 25px 25px 25px;
 }
