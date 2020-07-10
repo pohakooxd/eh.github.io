@@ -444,38 +444,43 @@ body {
   box-shadow: 38px 20px 46px -23px rgba(0, 0, 0, 0.27);
 }
 
-div[class*="chat"] {
-  	background: rgba(10, 10, 10, 0.5);
+[class*="chat"] {
   	border-radius: 25px 25px 25px 25px;
   	box-shadow: 38px 20px 46px -23px rgba(0, 0, 0, 0.27);
 }
 
-div[class*="wrapper- da-wrapper guilds-"] {
-    	background: rgba(10, 10, 10, 0.5);
-    	border-radius: 25px 25px 25px 25px;
-    	box-shadow: 38px 20px 46px -23px rgba(0, 0, 0, 0.27);
-      margin-bottom: 10px !important;
-      margin-top: 10px !important;
-      margin-left: 5px !important;
+.da-wrapper {
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: 38px 20px 46px -23px rgba(0, 0, 0, 0.27);
 }
 * {
   border-radius: 25px 25px 25px 25px;
 }
-div[class*="sidebar"] {
+[class*="sidebar"] {
   margin: 10px;
   margin-right: 10px;
-  margin-left: 10px;
 }
-div[class="listContent-2_qb-y da-listContent"] {
+[class*="listContent-"] {
   margin: 10px;
   margin-right: 2px;
 }
-div[class*="members- da-members thin-1ybCId scrollerBase- fade-"] {
-  margin: 10px;
-}
-div[class="full-motion app-focused theme-dark platform-linux"] {
+[class="full-motion"] {
   margin-right: 10px
 }
-div[class*="base-"] {
-    margin-left: 5px !important;
+[class*="base-*"] {
+    margin-left: 2px;
+    margin-right: 10px;
+}
+.da-base {
+    margin-left: 2px;
+    margin-right: 10px;
+}
+.da-scroller {
+    margin: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-radius: 25px 25px 25px 25px;
+}
+[class*="guilds-"] {
+    margin-left: 5px;
 }
