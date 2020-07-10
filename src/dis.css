@@ -419,6 +419,8 @@ body {
 	background: rgba(10, 10, 10, 0.5);
 	border-radius: 25px 25px 25px 25px;
 	box-shadow: 38px 20px 46px -23px rgba(0, 0, 0, 0.27);
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .sidebar-CFHs9e {
@@ -435,25 +437,45 @@ body {
 .da-chat {
   background: rgba(10, 10, 10, 0.5);
 	border-radius: 25px;
-	margin-left: 10px;
-	margin-right: 10px;
+  margin: 10px;
 }
 
 .membersWrap-2h-GB4, .da-members {
   box-shadow: 38px 20px 46px -23px rgba(0, 0, 0, 0.27);
 }
 
-[class*="chat"] {
+div[class*="chat"] {
   	background: rgba(10, 10, 10, 0.5);
   	border-radius: 25px 25px 25px 25px;
   	box-shadow: 38px 20px 46px -23px rgba(0, 0, 0, 0.27);
 }
 
-[class="wrapper-1Rf91z da-wrapper guilds-1SWlCJ"] {
+div[class*="wrapper- da-wrapper guilds-"] {
     	background: rgba(10, 10, 10, 0.5);
     	border-radius: 25px 25px 25px 25px;
     	box-shadow: 38px 20px 46px -23px rgba(0, 0, 0, 0.27);
+      margin-bottom: 10px !important;
+      margin-top: 10px !important;
+      margin-left: 5px !important;
 }
 * {
   border-radius: 25px 25px 25px 25px;
+}
+div[class*="sidebar"] {
+  margin: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+div[class="listContent-2_qb-y da-listContent"] {
+  margin: 10px;
+  margin-right: 2px;
+}
+div[class*="members- da-members thin-1ybCId scrollerBase- fade-"] {
+  margin: 10px;
+}
+div[class="full-motion app-focused theme-dark platform-linux"] {
+  margin-right: 10px
+}
+div[class*="base-"] {
+    margin-left: 5px !important;
 }
