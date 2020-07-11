@@ -915,10 +915,10 @@ body {
   background: transparent !important;
 }
 [class*="backdrop-"] {
-    background-color: transparent !important;
+  background-color: transparent !important;
 }
 .da-card, .da-flex {
-    border-radius: var(--roundness);
+  border-radius: var(--roundness);
 }
 [class*="userInfoViewingButton-2-"], .da-userInfoViewingButton, [class*="button-"], .da-button, [class*="lookFilled-"], [class*="colorBrand-"], [class*="sizeSmall-"], [class*="grow-"], .da-grow{
   border-radius: var(--roundness)
@@ -930,15 +930,14 @@ body {
   background-color: transparent !important;
 }
 [class*="backdropWithLayer-3_"] {
-    background-color: transparent !important;
+  background-color: transparent !important;
 }
 [class*="focusLock-"], .da-focusLock {
   backdrop-filter: blur(var(--wallblur));
 }
 element.style {
-    background-color: transparent !important;
-      backdrop-filter: blur(var(--wallblur));
-
+  background-color: transparent !important;
+  backdrop-filter: blur(var(--wallblur));
 }
 [class*="layer-"], .da-layer {
   background-color: transparent !important;
