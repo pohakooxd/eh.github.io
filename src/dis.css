@@ -11,12 +11,10 @@
 @import url("https://cdn.discordapp.com/attachments/729185721771884623/730137048798855289/style_part04.css");
 @import url('https://fonts.googleapis.com/css2?family=Fondamento&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap");
-@import url("https://media.discordapp.net/attachments/699685435198144553/731293853554049094/wallpaper3.png");
 @font-face {
   font-family: 'Fondamento', cursive;
 }
 :root {
-    --bg: url("https://media.discordapp.net/attachments/699685435198144553/731293853554049094/wallpaper3.png");
     --Chat-Font-Used: 'Fondamento', normal;
     --Chat-Font-Size: 15.5px;
    	/* Here you can define properties for use with Glasscord. */
@@ -851,10 +849,7 @@ body {
 [class*="-image"] {
     border-radius: 25px 25px 25px 25px;
 }
-.da-layer {
-    background-image: var(--bg);
-    border-radius: 25px 25px 25px 25px;
-}
+
 [class*="members-"] {
     border-radius: 25px 25px 25px 25px;
 }
