@@ -756,7 +756,7 @@ body {
 	background: rgba(10, 10, 10, 0.5);
 	border-radius: var(--roundness);
 	box-shadow: 38px 20px 46px -23px rgba(0, 0, 0, 0.27);
-  margin-bottom: 10px;
+  margin-bottom: 18px;
   margin-top: 10px;
 }
 
@@ -774,7 +774,8 @@ body {
 .da-chat {
   background: rgba(10, 10, 10, 0.5);
 	border-radius: 25px;
-  margin: 10px;
+  margin-top: 10px;
+  margin-bottom: 18px;
   margin-left: 0px;
   margin-right: 0px;
 }
@@ -794,11 +795,13 @@ body {
 }
 
 [class*="sidebar"] {
-  margin: 10px;
+  margin-top: 10px;
+  margin-bottom: 18px
   margin-right: 10px;
 }
 [class*="listContent-"] {
-  margin: 10px;
+  margin-top: 10px;
+  margin-bottom: 18px
   margin-right: 2px;
 }
 [class="full-motion"] {
@@ -813,15 +816,16 @@ body {
     margin-right: 10px;
 }
 .da-scroller {
-    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 18px
     margin-left: 0px;
     margin-right: 0px;
     border-radius: var(--roundness);
 }
 [class*="guilds-"] {
     margin-left: 5px;
-      margin-top: 10px;
-  margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .da-members {
     margin: 10px;
