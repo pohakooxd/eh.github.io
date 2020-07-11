@@ -61,7 +61,7 @@
 	--active: #81a1c13d !important;
 
   /* Filter Blur amount */
-  --wallblur: 10px;
+  --wallblur: 20px;
   /* Round varible for coners */
   --roundness: 25px;
   /* Makes Blacked bg transparent */
@@ -954,7 +954,7 @@ body {
 [class*="channel-"], .da-channel, [class*="container-"], .da-container, [class*="selected-"], .da-selected {
   border-radius: var(--roundness);
 }
-[class*="layout-"], [class*="input-"], [class*="content-"], [class*="result-"], .da-result, [class*="searchBar"], [class*="ui-"], [class*="selected"] {
+[class*="layout-"], [class*="input-"], [class*="result-"], .da-result, [class*="searchBar"], [class*="ui-"], [class*="selected"] {
   border-radius: var(--roundness);
 }
 [class*="quickswitcher-"] {
@@ -982,4 +982,7 @@ body {
 }
 [class*="menu-"] {
   backdrop-filter: blur(var(--wallblur));
+}
+[class*="emojiPicker-"] {
+  backdrop-filter: blur(20px) !important;
 }
