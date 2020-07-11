@@ -12,7 +12,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Fondamento&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap");
 @import url("https://media.discordapp.net/attachments/699685435198144553/731293853554049094/wallpaper3.png");
-@font-face { font-family: 'Fondamento', cursive;}
+@font-face {
+  font-family: 'Fondamento', cursive;
+}
 :root {
     --bg: url("https://media.discordapp.net/attachments/699685435198144553/731293853554049094/wallpaper3.png");
     --Chat-Font-Used: 'Fondamento', normal;
