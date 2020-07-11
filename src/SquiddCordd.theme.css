@@ -58,7 +58,7 @@
 	--active: #81a1c13d !important;
 
   /* Filter Blur amount */
-  --wallblur: 20px;
+  --wallblur: 50px;
   /* Round varible for coners */
   --roundness: 25px;
   /* Makes Blacked bg transparent */
@@ -153,7 +153,7 @@
 
 .premiumPromo-yVfLiA {
 	background-color: var(--background-secondary-chat);
-	backdrop-filter: blur(2px);
+	backdrop-filter: blur(var(--wallblur)) !important;
 }
 
 .unread-3zKkbm {
@@ -506,7 +506,7 @@ font-size: var(--Chat-Font-Size);
 
 .premiumPromo-yVfLiA {
 	background-color: var(--background-secondary-chat);
-	backdrop-filter: blur(2px);
+	backdrop-filter: blur(var(--wallblur)) !important;
 }
 
 .unread-3zKkbm {
@@ -796,28 +796,29 @@ body {
 
 [class*="sidebar"] {
   margin-top: 10px;
-  margin-bottom: 18px
+  margin-bottom: 18px;
   margin-right: 10px;
+  margin-left: 5px;
 }
 [class*="listContent-"] {
   margin-top: 10px;
-  margin-bottom: 18px
+  margin-bottom: 18px;
   margin-right: 2px;
 }
 [class="full-motion"] {
   margin-right: 10px
 }
 [class*="base-*"] {
-    margin-left: 2px;
-    margin-right: 10px;
+    margin-left: 2px !important;
+    margin-right: 10px !important;
 }
 .da-base {
-    margin-left: 2px;
-    margin-right: 10px;
+    margin-left: 2px !important;
+    margin-right: 10px !important;
 }
 .da-scroller {
     margin-top: 10px;
-    margin-bottom: 18px
+    margin-bottom: 18px;
     margin-left: 0px;
     margin-right: 0px;
     border-radius: var(--roundness);
@@ -825,6 +826,7 @@ body {
 [class*="guilds-"] {
     margin-left: 5px;
     margin-top: 10px;
+    margin-right: 5px;
     margin-bottom: 10px;
 }
 .da-members {
@@ -881,7 +883,7 @@ body {
   background-color: transparent;
 }
 .da-flex {
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(var(--wallblur)) !important;
   border-radius: var(--roundness);
 }
 [class*="userPopout-"],
@@ -905,9 +907,6 @@ body {
   background: transparent !important;
 }
 [class*="thin-"] {
-  background: transparent !important;
-}
-[class*="scrollerBase-"] {
   background: transparent !important;
 }
 [class*="fade-"] {
@@ -936,11 +935,11 @@ body {
     background-color: transparent !important;
 }
 [class*="focusLock-"], .da-focusLock {
-  backdrop-filter: blur(var(--wallblur));
+  backdrop-filter: blur(var(--wallblur)) !important;
 }
 [class*="element.style"] {
     background-color: transparent !important;
-    backdrop-filter: blur(var(--wallblur));
+    backdrop-filter: blur(var(--wallblur)) !important;
     border-radius: var(--roundness);
 }
 [class*="layer-"], .da-layer {
@@ -960,7 +959,7 @@ body {
 }
 [class*="quickswitcher-"] {
     background-color: transparent;
-    backdrop-filter: blur(var(--wallblur));
+    backdrop-filter: blur(var(--wallblur)) !important;
     border-radius: var(--roundness);
 }
 #bd-settings-sidebar .ui-tab-bar-item.selected {
@@ -982,8 +981,17 @@ body {
     border-radius: var(--roundness);
 }
 [class*="menu-"] {
-  backdrop-filter: blur(var(--wallblur));
+  backdrop-filter: blur(var(--wallblur)) !important;
 }
 [class*="emojiPicker-"] {
-  backdrop-filter: blur(20px) !important;
+  backdrop-filter: blur(var(--wallblur)) !important;
+}
+div[class*=base-] {
+  margin-left: 10px !important;
+}
+[class*="search"] {
+  border-radius: var(--roundness);
+}
+.da-selected {
+  border-radius: 10px !important;
 }
