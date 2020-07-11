@@ -11,10 +11,14 @@
 @import url("https://cdn.discordapp.com/attachments/729185721771884623/730137048798855289/style_part04.css");
 @import url('https://fonts.googleapis.com/css2?family=Fondamento&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap");
+/* Popout Wallpaper! */
+@import url("https://media.discordapp.net/attachments/699685435198144553/731293853554049094/wallpaper3.png");
+/* */
 @font-face {
   font-family: 'Fondamento', cursive;
 }
 :root {
+    --bg: url("https://media.discordapp.net/attachments/699685435198144553/731293853554049094/wallpaper3.png");
     --Chat-Font-Used: 'Fondamento', normal;
     --Chat-Font-Size: 15.5px;
    	/* Here you can define properties for use with Glasscord. */
@@ -54,6 +58,11 @@
 	--selected-background: #5e81ac1a !important;
 	--hovered: #81a1c109 !important;
 	--active: #81a1c13d !important;
+
+  /* Filter Blur amount */
+  --wallblur: 10px;
+  /* Round varible for coners */
+  --roundness: 25px;
 }
 /* glasscord theme begin */
 
@@ -743,7 +752,7 @@ body {
 
 .da-sidebar {
 	background: rgba(10, 10, 10, 0.5);
-	border-radius: 25px 25px 25px 25px;
+	border-radius: var(--roundness);
 	box-shadow: 38px 20px 46px -23px rgba(0, 0, 0, 0.27);
   margin-bottom: 10px;
   margin-top: 10px;
@@ -773,12 +782,12 @@ body {
 }
 
 [class*="chat"] {
-  	border-radius: 25px 25px 25px 25px;
+  	border-radius: var(--roundness);
   	box-shadow: 38px 20px 46px -23px rgba(0, 0, 0, 0.27);
 }
 
 .da-wrapper {
-    border-radius: 25px 25px 25px 25px;
+    border-radius: var(--roundness);
     box-shadow: 38px 20px 46px -23px rgba(0, 0, 0, 0.27);
 }
 
@@ -805,7 +814,7 @@ body {
     margin: 10px;
     margin-left: 0px;
     margin-right: 0px;
-    border-radius: 25px 25px 25px 25px;
+    border-radius: var(--roundness);
 }
 [class*="guilds-"] {
     margin-left: 5px;
@@ -835,24 +844,84 @@ body {
     border-radius: 0 0 0 0;
 }
 .da-selected {
-    border-radius: 25px 25px 25px 25px;
+    border-radius: var(--roundness);
 }
 .da-folderIconWrapper {
-    border-radius: 25px 25px 25px 25px;
+    border-radius: var(--roundness);
 }
 [class*="selected"] {
-    border-radius: 25px 25px 25px 25px;
+    border-radius: var(--roundness);
 }
 .da-anchor {
-    border-radius: 25px 25px 25px 25px;
+    border-radius: var(--roundness);
 }
 [class*="-image"] {
-    border-radius: 25px 25px 25px 25px;
+    border-radius: var(--roundness);
 }
 
 [class*="members-"] {
-    border-radius: 25px 25px 25px 25px;
+    border-radius: var(--roundness);
 }
 [class*="da-list"] {
-    border-radius: 25px 25px 25px 25px;
+    border-radius: var(--roundness);
+}
+[class*="selected-"] {
+  border-radius: 0;
+}
+[class^="topSectionNormal"],
+.da-root, [class^="body"] {
+  background-color: transparent;
+}
+.da-flex {
+  backdrop-filter: blur(10px);
+  border-radius: var(--roundness);
+}
+[class*="userPopout-"],
+[class^="userPopout"],
+.da-userPopout, .da-didRender {
+  border-radius: var(--roundness);
+  background-color: transparent !important;
+  backdrop-filter: blur(var(--wallblur)) !important;
+}
+.da-scrollbarGhostHairline, .da-scrollbar {
+    border-radius: var(--roundness);
+}
+[class="headerNormal-T_seeN"],
+[class*="header-"],
+[class*="size16-"],
+[class*="da-size16"],
+.da-header, .da-headerNormal, .da-body {
+    background: transparent !important;
+}
+[class*="body-"] {
+  background: transparent !important;
+}
+[class*="thin-"] {
+  background: transparent !important;
+}
+[class*="scrollerBase-"] {
+  background: transparent !important;
+}
+[class*="fade-"] {
+  background: transparent !important;
+}
+[class*="footer-"],
+.da-footer {
+  background: transparent !important;
+}
+[class*="backdrop-"] {
+    background-color: transparent !important;
+}
+.da-card, .da-flex {
+    border-radius: var(--roundness);
+}
+[class*="userInfoViewingButton-2-"], .da-userInfoViewingButton, [class*="button-"], .da-button, [class*="lookFilled-"], [class*="colorBrand-"], [class*="sizeSmall-"], [class*="grow-"], .da-grow{
+  border-radius: var(--roundness)
+}
+[class*="colorStandard-"], [class*="size14-"], [class*="title-"], .da-h5, .da-title, [class*="marginBottom4-"], .da-marginBottom4, [class*="faded-"], .da-faded {
+  margin-top: 5px;
+}
+[class*="wrapper-"] .da-wrapper, [class*="guilds-"] {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
