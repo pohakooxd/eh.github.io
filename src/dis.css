@@ -818,6 +818,8 @@ body {
 }
 [class*="guilds-"] {
     margin-left: 5px;
+      margin-top: 10px;
+  margin-bottom: 10px;
 }
 .da-members {
     margin: 10px;
@@ -920,8 +922,4 @@ body {
 }
 [class*="colorStandard-"], [class*="size14-"], [class*="title-"], .da-h5, .da-title, [class*="marginBottom4-"], .da-marginBottom4, [class*="faded-"], .da-faded {
   margin-top: 5px;
-}
-[class*="wrapper-"] .da-wrapper, [class*="guilds-"] {
-  margin-top: 10px;
-  margin-bottom: 10px;
 }
