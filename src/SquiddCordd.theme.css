@@ -1,3 +1,4 @@
+//META{"name":"SquiddCordd","description":"SquiddCordd theme By ThatGeekyWeeb","author":"ThatGeekyWeeb","version":"1.35.0","website":"https://github.com/ThatGeekyWeeb","source":"https://raw.githubusercontent.com/ThatGeekyWeeb/ThatGeekyWeeb.github.io/master/src/SquiddCordd.theme.css"}*//{}
 /**
  * ThatGeekyWeeb
  * SquiddCordd
@@ -66,6 +67,7 @@
   /* Makes Blacked bg transparent */
   --background-lights-out: transparent;
   --background-floating: transparent;
+  --background-switcher: transparent;
 }
 /* glasscord theme begin */
 
@@ -915,10 +917,10 @@ body {
   background: transparent !important;
 }
 [class*="backdrop-"] {
-  background-color: transparent !important;
+    background-color: transparent !important;
 }
 .da-card, .da-flex {
-  border-radius: var(--roundness);
+    border-radius: var(--roundness);
 }
 [class*="userInfoViewingButton-2-"], .da-userInfoViewingButton, [class*="button-"], .da-button, [class*="lookFilled-"], [class*="colorBrand-"], [class*="sizeSmall-"], [class*="grow-"], .da-grow{
   border-radius: var(--roundness)
@@ -930,15 +932,51 @@ body {
   background-color: transparent !important;
 }
 [class*="backdropWithLayer-3_"] {
-  background-color: transparent !important;
+    background-color: transparent !important;
 }
 [class*="focusLock-"], .da-focusLock {
   backdrop-filter: blur(var(--wallblur));
 }
-element.style {
-  background-color: transparent !important;
-  backdrop-filter: blur(var(--wallblur));
+[class*="element.style"] {
+    background-color: transparent !important;
+    backdrop-filter: blur(var(--wallblur));
+    border-radius: var(--roundness);
 }
 [class*="layer-"], .da-layer {
   background-color: transparent !important;
+}
+[class*="container-"] .da-container, [class*="themed-"], .da-themed {
+  border-radius: var(--roundness)
+}
+[class*="container-"] .da-container, [class*="themed-"], .da-themed {
+  border-radius: var(--roundness);
+}
+[class*="channel-"], .da-channel, [class*="container-"], .da-container, [class*="selected-"], .da-selected {
+  border-radius: var(--roundness);
+}
+[class*="layout-"], [class*="input-"], [class*="content-"], [class*="result-"], .da-result, [class*="searchBar"], [class*="ui-"], [class*="selected"] {
+  border-radius: var(--roundness);
+}
+[class*="quickswitcher-"] {
+    background-color: transparent;
+    backdrop-filter: blur(var(--wallblur));
+    border-radius: var(--roundness);
+}
+#bd-settings-sidebar .ui-tab-bar-item.selected {
+    border-radius: var(--roundness);
+}
+#bd-settings-sidebar .ui-tab-bar-item:hover {
+    border-radius: var(--roundness);
+}
+#bd-settings-sidebar .ui-tab-bar-item:active {
+    border-radius: var(--roundness);
+}
+[class*="side-"], [class*="themed-"]:hover, [class*="topPill-"], [class*="themed-"]:hover {
+    border-radius: var(--roundness);
+}
+[class*="side-"], [class*="themed-"]:active, [class*="topPill-"], [class*="themed-"]:active {
+    border-radius: var(--roundness);
+}
+[class*="side-"], [class*="themed-"], [class*="topPill-"], {
+    border-radius: var(--roundness);
 }
