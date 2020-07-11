@@ -63,6 +63,9 @@
   --wallblur: 10px;
   /* Round varible for coners */
   --roundness: 25px;
+  /* Makes Blacked bg transparent */
+  --background-lights-out: transparent;
+  --background-floating: transparent;
 }
 /* glasscord theme begin */
 
@@ -922,4 +925,21 @@ body {
 }
 [class*="colorStandard-"], [class*="size14-"], [class*="title-"], .da-h5, .da-title, [class*="marginBottom4-"], .da-marginBottom4, [class*="faded-"], .da-faded {
   margin-top: 5px;
+}
+[class*="modalRoot-"] .da-modalRoot, [class*="root-"], .da-root, [class*="small-"], [class*="fullscreenOnMobile-"], .da-fullscreenOnMobile {
+  background-color: transparent !important;
+}
+[class*="backdropWithLayer-3_"] {
+    background-color: transparent !important;
+}
+[class*="focusLock-"], .da-focusLock {
+  backdrop-filter: blur(var(--wallblur));
+}
+element.style {
+    background-color: transparent !important;
+      backdrop-filter: blur(var(--wallblur));
+
+}
+[class*="layer-"], .da-layer {
+  background-color: transparent !important;
 }
