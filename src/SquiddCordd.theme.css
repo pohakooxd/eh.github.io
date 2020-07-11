@@ -980,3 +980,6 @@ body {
 [class*="side-"], [class*="themed-"], [class*="topPill-"], {
     border-radius: var(--roundness);
 }
+[class*="menu-"] {
+  backdrop-filter: blur(var(--wallblur));
+}
