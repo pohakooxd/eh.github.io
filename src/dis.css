@@ -11,8 +11,10 @@
 @import url("https://cdn.discordapp.com/attachments/729185721771884623/730137048798855289/style_part04.css");
 @import url('https://fonts.googleapis.com/css2?family=Fondamento&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap");
+@import url("https://media.discordapp.net/attachments/699685435198144553/731293853554049094/wallpaper3.png");
 @font-face { font-family: 'Fondamento', cursive;}
 :root {
+    --bg: url("https://media.discordapp.net/attachments/699685435198144553/731293853554049094/wallpaper3.png");
     --Chat-Font-Used: 'Fondamento', normal;
     --Chat-Font-Size: 15.5px;
    	/* Here you can define properties for use with Glasscord. */
@@ -77,30 +79,59 @@
 	--background-titlebar: transparent;
 }
 
-.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece {
+.theme-dark {
 	background-color: transparent;
 	border: 4px solid transparent;
 }
-
-.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb {
-	background-color: #20222550;
+[class*="scrollerThemed-2oenus.themedWithTrack-*"] {
+  background-color: transparent;
+  border: 4px solid transparent;
 }
 
-.theme-dark .container-1D34oG {
+[class*="scroller-::-webkit-scrollbar-track-piece"] {
+  background-color: transparent;
+  border: 4px solid transparent;
+}
+
+.theme-dark {
+	background-color: #20222550;
+}
+[class*=".scroller-::-webkit-scrollbar-thumb"] {
+  background-color: #20222550;
+}
+
+[class*="scrollerThemed-2oenus.themedWithTrack-"] {
+  background-color: #20222550;
+}
+
+.theme-dark {
 	background-color: transparent;
+}
+
+[class*="container-"] {
+  background-color: transparent;
 }
 
 .theme-dark .card-FDVird:before {
 	background-color: #33363c90;
 }
 
-.theme-dark .codeRedemptionRedirect-1wVR4b {
+.theme-dark {
 	background-color: #2f313650;
 	border-color: #20222550;
 }
 
-.theme-dark .pageWrapper-1PgVDX {
+[class*="codeRedemptionRedirect-"] {
+  background-color: #2f313650;
+	border-color: #20222550;
+}
+
+.theme-dark  {
 	background-color: transparent;
+}
+
+[class*="pageWrapper-"] {
+  background-color: transparent;
 }
 
 .withFrame-haYltI {
@@ -816,5 +847,15 @@ body {
     border-radius: 25px 25px 25px 25px;
 }
 [class*="-image"] {
+    border-radius: 25px 25px 25px 25px;
+}
+.da-layer {
+    background-image: var(--bg);
+    border-radius: 25px 25px 25px 25px;
+}
+[class*="members-"] {
+    border-radius: 25px 25px 25px 25px;
+}
+[class*="da-list"] {
     border-radius: 25px 25px 25px 25px;
 }
