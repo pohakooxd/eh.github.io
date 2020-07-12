@@ -791,7 +791,7 @@ body {
 
 .da-wrapper {
     border-radius: var(--roundness);
-    box-shadow: 38px 20px 46px -23px rgba(0, 0, 0, 0.27);
+    box-shadow: 38px 20px 46px -23px transparent !important;
 }
 
 [class*="sidebar"] {
