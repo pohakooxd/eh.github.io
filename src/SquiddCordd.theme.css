@@ -255,7 +255,7 @@
 
 .childWrapper-anI2G9 {
 	background-color: var(--background-logo);
-}
+}}
 
 .circleIconButton-jET_ig {
 	background-color: var(--background-logo);
@@ -525,7 +525,7 @@ font-size: var(--Chat-Font-Size);
 	border-radius: 0;
 }
 
-.platform-osx .scroller-2TZvBN {
+.platform-osx .scroller-2TZvBN {}
     padding-top: 32px;
     -webkit-mask: linear-gradient(#0000, #fff 32px);
 }
@@ -706,7 +706,7 @@ font-size: var(--Chat-Font-Size);
 .messagesWrapper-3lZDfY {
 	margin-bottom: 8px;
 }
-
+}
 .panels-j1Uci_ {
 	background-color: transparent;
 }
@@ -727,7 +727,7 @@ font-size: var(--Chat-Font-Size);
 	background-color: var(--background-lights-out) !important;
 }
 
-.downloadLink-1ywL9o {
+.downloadLink-1ywL9o {}
 	color: var(--text-lights-out) !important;
 }
 
@@ -994,4 +994,9 @@ div[class*=base-] {
 }
 .da-selected {
   border-radius: 10px !important;
+}
+[class*="wrapper"] {
+    border-radius: var(--roundness);
+    box-shadow: 38px 20px 46px -23px transparent !important;
+    background: transparent;
 }
