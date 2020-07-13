@@ -5,11 +5,7 @@
  * <https://github.com/ThatGeekyWeeb/>
  * <thatgeekyweeb@gmail.com>
  */
-@import url("https://cdn.discordapp.com/attachments/729185721771884623/730137029215649822/style_part00.css");
-@import url("https://cdn.discordapp.com/attachments/729185721771884623/730137033934373014/style_part01.css");
-@import url("https://cdn.discordapp.com/attachments/729185721771884623/730137041135992902/style_part02.css");
-@import url("https://cdn.discordapp.com/attachments/729185721771884623/730137045179039744/style_part03.css");
-@import url("https://cdn.discordapp.com/attachments/729185721771884623/730137048798855289/style_part04.css");
+@import url("https://thatgeekyweeb.github.io/src/import.data.css);
 @import url('https://fonts.googleapis.com/css2?family=Fondamento&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap");
 @font-face {
