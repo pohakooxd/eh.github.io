@@ -1050,3 +1050,10 @@
       box-shadow: 38px 20px 46px -23px transparent !important;
       background: transparent;
   }
+  [class*="backdrop-"] {
+      background-color: transparent !important;
+      backdrop-filter: blur(10px);
+  }
+  .inner-1ilYF7 {
+    backdrop-filter: blur(10px) !important;
+}
