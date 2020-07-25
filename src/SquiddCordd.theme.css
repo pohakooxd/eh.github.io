@@ -1056,4 +1056,12 @@
   }
   .inner-1ilYF7 {
     backdrop-filter: blur(10px) !important;
-}
+  }
+  .imageWrapper-2p5ogY img {
+    position: absolute;
+    border-radius: 25px 25px 25px 25px;
+  }
+  [class*="backdropWithLayer-3_"] {
+    background-color: transparent !important;
+    backdrop-filter: blur(10px);
+  }
