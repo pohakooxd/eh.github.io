@@ -6,14 +6,14 @@ Hey! The names That{Geeky}Weeb! (Omit whats in the Braces!)</p>
 <hr>
 <p><strong>Everything:</strong></p>
 <hr>
-<p>Here’s a list of some thing I’ve programmed/configured (Don’t @me this was ripped right from <a href="https://github.com/ThatGeekyWeeb/Squid-Dots">Squid-Dots</a>!)</p>
+<p>Here’s a list of some things I’ve programmed/configured (Don’t @me this was ripped right from <a href="https://github.com/ThatGeekyWeeb/Squid-Dots">Squid-Dots</a>!)</p>
 <p><a href="https://github.com/ThatGeekyWeeb/Squid-Dots/blob/master/Squid-Now/Squid-Now.kak"><code>kakoune</code>(Squid-Now)</a><br>
 <a href="https://github.com/ThatGeekyWeeb/Squid-Dots/blob/master/berry/autostart"><code>.config/berry/autostart</code>(My BerryWM config)</a><br>
 <a href="https://github.com/ThatGeekyWeeb/Squid-Dots/blob/master/sxhkd/sxhkdrc"><code>sxhkd</code>(BerryWM shortcuts)</a><br>
 <a href="https://github.com/ThatGeekyWeeb/Squid-Dots/blob/master/Fish-Colors/fish_variables"><code>fish_variables</code>(My Fish Color Config)</a></p>
 
 <blockquote>
-<p>Some (hand made) custom berry(WM) scripts can be found within <a href="https://github.com/ThatGeekyWeeb/Squid-Dots/tree/master/berry"> <code>berry/</code></a>, they all require <a href="https://en.wikipedia.org/wiki/Wmctrl"></a><a><code>wmctrl</code></a> to be preinstalled to work</p>
+<p>Some (hand made) custom berry(WM) scripts can be found within <a href="https://github.com/ThatGeekyWeeb/Squid-Dots/tree/master/berry"> <code>berry/</code></a>, they all require <a href="https://en.wikipedia.org/wiki/Wmctrl"><code>wmctrl</code></a> to be preinstalled to work</p>
 </blockquote>
 <hr>
 <h3 id="themes">Themes!</h3>
@@ -44,6 +44,13 @@ Hey! The names That{Geeky}Weeb! (Omit whats in the Braces!)</p>
 <pre class="  language-sh"><code class="prism  language-sh">picom --blur-method kawase --backend glx --blur-strength 3 --blur-background -c --shadow-red 0 --shadow-green 0 --shadow-blue 0 -f &amp;
 </code></pre>
 </blockquote>
+<hr>
+<h3 id="kcomp"><code>kcomp</code></h3>
+<p>A Simple Script to Re-Enable the KWin OGL compositor!</p>
+<blockquote>
+  <p> A script to patch a bug caused by using a login manager with <code>runit</code></p>
+</blockquote>
+<hr>
 <h3 id="wallpapers">Wallpapers!</h3>
 <hr>
 <p>I make some of my own wallpapers! To prevent crowding they can be found <a href="https://github.com/ThatGeekyWeeb/Squid-Dots#wallpapers">here</a></p>
