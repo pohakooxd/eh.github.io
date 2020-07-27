@@ -13,3 +13,8 @@ code {
     overflow: auto !important;
     overflow-y: hidden !important;
 }
+header h1:before {
+    content: " " !important;
+    font-size: 24px !important;
+    margin-right: 10px !important;
+}
