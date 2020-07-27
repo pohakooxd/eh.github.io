@@ -105,9 +105,6 @@
   .theme-dark {
       background-color: #20222550;
   }
-  [class*=".scroller-::-webkit-scrollbar-thumb"] {
-      background-color: #20222550;
-  }
 
   [class*="scrollerThemed-2oenus.themedWithTrack-"] {
       background-color: #20222550;
@@ -425,7 +422,7 @@
   }
 
   .theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb {
-      background-color: #20222550;
+      background-color: #fff;
   }
 
   .theme-dark .container-1D34oG {
@@ -474,8 +471,7 @@
   }
 
   .theme-light .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb {
-      border-color: transparent;
-      background-color: #e3e5e850;
+      background-color: #fff;
   }
 
   .theme-light .container-1D34oG {
