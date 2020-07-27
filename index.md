@@ -1,4 +1,6 @@
----
+<section id="downloads">
+          <a href="https://github.com/ThatGeekyWeeb" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+</section>
 <hr>
 <h1 id="thatgeekyweeb">That{Geeky}Weeb</h1>
 <p><img src="https://cdn.discordapp.com/avatars/583479051524505630/e1effcd799482c49062bb187ef373bb3.png" alt="Profile Picture"><br>
@@ -52,6 +54,7 @@ Hey! The names That{Geeky}Weeb! (Omit whats in the Braces!)</p>
 <hr>
 <h1 id="socials">Socials!</h1>
 <p>Discord &gt; <code>ThatWeeb#6702</code><br>
+Github &gt; <code>ThatGeekyWeeb</code> (<a href="https://github.com/ThatGeekyWeeb">https://github.com/ThatGeekyWeeb</a>)<br> 
 Reddit &gt; <code>u/ssfgames13</code><br>
 Spotify &gt; <code>73yb8dtymd0fey5ovw5xiy90v</code> (<a href="https://open.spotify.com/user/73yb8dtymd0fey5ovw5xiy90v">https://open.spotify.com/user/73yb8dtymd0fey5ovw5xiy90v</a>)<br>
 Minecraft &gt; EmysBabe_Elijah<br>
