@@ -1,4 +1,3 @@
-<hr>
 <h1 id="thatgeekyweeb">That{Geeky}Weeb</h1>
 <p><img src="https://cdn.discordapp.com/avatars/583479051524505630/e1effcd799482c49062bb187ef373bb3.png" alt="Profile Picture"><br>
 Hey! The names That{Geeky}Weeb! (Omit whats in the Braces!)</p>
