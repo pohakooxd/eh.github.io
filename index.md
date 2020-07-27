@@ -1,6 +1,3 @@
-<head>
-<link type="text/css" rel="stylesheet" href="styles.css" />
-</head>
 <section id="downloads">
           <a href="https://github.com/ThatGeekyWeeb" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
 </section>
