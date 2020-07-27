@@ -1,10 +1,5 @@
 theme: jekyll-theme-hacker
 
-author : ThatGeekyWeeb
-  name : Insert Legal Name Here
-  email : thatgeekyweeb@gmail.com
-  github : ThatGeekyWeeb
-
 kramdown:
   use_coderay: true
 
