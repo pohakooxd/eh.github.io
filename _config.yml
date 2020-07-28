@@ -1,9 +1,0 @@
-kramdown:
-  use_coderay: true
-
-  coderay:
-    coderay_line_numbers:
-    coderay_tab_width: 2
-    coderay_css: class
-
-theme: jekyll-theme-hacker
