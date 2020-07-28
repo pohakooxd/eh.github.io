@@ -2,6 +2,10 @@
 ---
 
 @import "{{ site.theme }}";
+--
+---
+
+@import "{{ site.theme }}";
 .highlight {
     color: #d0d0d0
 }
@@ -107,7 +111,7 @@ body {
     font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace
 }
 .container {
-    width: 90% !important;
+    width: 70% !important;
     /* max-width: 1000px; */
     margin: 0 auto !important;
 }
@@ -121,7 +125,8 @@ h3,
 h4,
 h5,
 h6 {
-    margin: 0 0 20px
+    margin: 0 0 20px;
+    margin-top: 10px;
 }
 li {
     line-height: 1.4
