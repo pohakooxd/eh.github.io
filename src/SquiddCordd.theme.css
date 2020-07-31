@@ -1,27 +1,19 @@
-//META{"name":"SquiddCordd","description":"SquiddCordd theme By ThatGeekyWeeb","author":"ThatGeekyWeeb","version":"0.41-CDN","website":"https://github.com/ThatGeekyWeeb","source":"https://raw.githubusercontent.com/ThatGeekyWeeb/ThatGeekyWeeb.github.io/master/src/SquiddCordd.theme.css"}*//{}
-  /**
-   * ThatGeekyWeeb
-   * SquiddCordd
-   * <https://github.com/ThatGeekyWeeb/>
-   * <thatgeekyweeb@gmail.com>
-   */
 @import url('https://fonts.googleapis.com/css2?family=Fondamento&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap");
 @import url("https://www.thatgeekyweeb.is-dummy-thi.cc/src/import.data.css");
 @font-face {
       font-family: 'Fondamento', cursive;
   }
-  :root {
-      --bg: url("https://media.discordapp.net/attachments/699685435198144553/731293853554049094/wallpaper3.png");
-      --Chat-Font-Used: 'Fondamento', normal;
-      --Chat-Font-Size: 15.5px;
-      /* Here you can define properties for use with Glasscord. */
-      /* Windows-specific properties */
-      /* Blur mode. Available types: acrylic (strong blur), blurbehind (light blur), transparent */
-      --glasscord-win-blur: acrylic;
-      /* Acrylic mode makes some computers pretty unresponsive when resizing/moving the window.
-  	   Should we work around it? */
-      --glasscord-win-performance-mode: true;
+:root {
+	--bg: url("https://media.discordapp.net/attachments/699685435198144553/731293853554049094/wallpaper3.png");
+    	--Chat-Font-Used: 'Fondamento', normal;
+      	--Chat-Font-Size: 15.5px;
+      	/* Here you can define properties for use with Glasscord. */
+      	/* Windows-specific properties */
+      	/* Blur mode. Available types: acrylic (strong blur), blurbehind (light blur), transparent */
+      	--glasscord-win-blur: blurbehind;
+      	/* Acrylic mode makes some computers pretty unresponsive when resizing/moving the window. We'll use "blurbehind" instead */
+      	--glasscord-win-performance-mode: true;
 
       /* macOS-specific properties */
       /* Vibrancy mode */
@@ -64,34 +56,33 @@
       --background-lights-out: transparent;
       --background-floating: transparent;
       --background-switcher: transparent;
-  }
+}
   /* glasscord theme begin */
-  .theme-dark {
-      --background-primary: transparent;
-      --background-primary-alt: transparent;
-      --background-secondary: transparent;
-      --background-secondary-chat: transparent;
-      --background-secondary-alt: transparent;
-      --background-tertiary: transparent;
-      --background-logo: transparent;
-      --deprecated-card-bg: transparent;
-      --deprecated-store-bg: transparent;
-      --background-attachments: transparent;
-      --background-search-bar: transparent;
-      --background-switcher: transparent;
-      --background-chatbox: transparent;
-      --background-lights-out: transparent;
-      --background-pinned: transparent;
-      --background-profile-expand: transparent;
-      --background-emoji: transparent;
-      --text-lights-out: transparent;
-      --background-titlebar: transparent;
-  }
-
-  .theme-dark {
-      background-color: transparent;
-      border: 4px solid transparent;
-  }
+.theme-dark {
+	--background-primary: transparent;
+	--background-primary-alt: transparent;
+      	--background-secondary: transparent;
+      	--background-secondary-chat: transparent;
+      	--background-secondary-alt: transparent;
+      	--background-tertiary: transparent;
+      	--background-logo: transparent;
+      	--deprecated-card-bg: transparent;
+      	--deprecated-store-bg: transparent;
+      	--background-attachments: transparent;
+      	--background-search-bar: transparent;
+      	--background-switcher: transparent;
+      	--background-chatbox: transparent;
+      	--background-lights-out: transparent;
+      	--background-pinned: transparent;
+      	--background-profile-expand: transparent;
+      	--background-emoji: transparent;
+      	--text-lights-out: transparent;
+      	--background-titlebar: transparent;
+      	background-color: transparent;
+      	border: 4px solid transparent;
+	--alert: #000;
+	--scrollbar: #000;
+}
   [class*="scrollerThemed-2oenus.themedWithTrack-*"] {
       background-color: transparent;
       border: 4px solid transparent;
@@ -422,7 +413,7 @@
   }
 
   .theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb {
-      background-color: #fff;
+      background-color: var(--scrollbar);
   }
 
   .theme-dark .container-1D34oG {
@@ -442,7 +433,7 @@
       background-color: transparent;
   }
 
-  .theme-light {
+.theme-light {
       --background-primary: transparent;
       --background-primary-alt: #ffffffff;
       --background-secondary: #f2f3f550;
@@ -463,44 +454,46 @@
       --text-lights-out: #202020;
       --background-titlebar: #f2f3f550;
       --interactive-muted: #95999d;
-  }
+      --alert: #f5b3b3;
+      --scrollbar: #fff;
+}
 
-  .theme-light .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece {
+.theme-light .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece {
       background-color: transparent;
       border: 4px solid transparent;
-  }
+}
 
-  .theme-light .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb {
-      background-color: #fff;
-  }
+.theme-light .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb {
+      background-color: var(--scrollbar);
+}
 
-  .theme-light .container-1D34oG {
+.theme-light .container-1D34oG {
       background-color: transparent;
-  }
+}
 
-  .theme-light .card-FDVird:before {
+.theme-light .card-FDVird:before {
       background-color: #f6f6f790;
-  }
+}
 
-  .theme-light .codeRedemptionRedirect-1wVR4b {
+.theme-light .codeRedemptionRedirect-1wVR4b {
       background-color: #f6f6f750;
       border-color: #dcddde50;
-  }
+}
 
-  .theme-light .pageWrapper-1PgVDX {
+.theme-light .pageWrapper-1PgVDX {
       background-color: transparent;
-  }
+}
 
-  .withFrame-haYltI {
+.withFrame-haYltI {
       height: 18px;
       margin-top: 0;
       padding-top: 4px;
-  }
+}
 
-  .premiumPromo-yVfLiA {
+.premiumPromo-yVfLiA {
       background-color: var(--background-secondary-chat);
       backdrop-filter: blur(var(--wallblur)) !important;
-  }
+}
 
   .unread-3zKkbm {
       height: 4px;
@@ -741,7 +734,7 @@
   }
 
   .scroller-2TZvBN {
-      background: rgba(10, 10, 10, 0.5) !important;
+      background: transparent!important;
       border-radius: 25px 0px 0px 25px;
   }
 
@@ -1032,32 +1025,74 @@
   [class*="emojiPicker-"] {
       backdrop-filter: blur(var(--wallblur)) !important;
   }
-  div[class*=base-] {
+div[class*=base-] {
       margin-left: 10px !important;
-  }
-  [class*="search"] {
+}
+[class*="search"] {
       border-radius: var(--roundness);
-  }
-  .da-selected {
+}
+.da-selected {
       border-radius: 10px !important;
-  }
-  [class*="wrapper"] {
+}
+[class*="wrapper"] {
       border-radius: var(--roundness);
       box-shadow: 38px 20px 46px -23px transparent !important;
       background: transparent;
-  }
-  [class*="backdrop-"] {
+}
+[class*="backdrop-"] {
       background-color: transparent !important;
       backdrop-filter: blur(10px);
-  }
-  .inner-1ilYF7 {
+}
+.inner-1ilYF7 {
     backdrop-filter: blur(10px) !important;
-  }
-  .imageWrapper-2p5ogY img {
+}
+.imageWrapper-2p5ogY img {
     position: absolute;
-    border-radius: 25px 25px 25px 25px;
-  }
-  [class*="backdropWithLayer-3_"] {
-    background-color: transparent !important;
-    backdrop-filter: blur(10px);
-  }
+    border-radius: var(--roundness);
+}
+[class*="backdropWithLayer-3_"] {
+	background-color: transparent !important;
+	backdrop-filter: blur(10px);
+}
+.listContent-2_qb-y {
+	border-radius: var(--roundness);
+}
+.sidebar-2K8pFh {
+	border-radius: var(--roundness);
+}
+.modeSelected-1zApJ_ .content-3at_AU, .modeSelected-1zApJ_:hover .content-3at_AU {
+    background-color: var(--background-modifier-selected);
+    border-radius: var(--roundness);
+}
+.wrapper-1ucjTd:hover .content-3at_AU {
+    background-color: var(--background-modifier-hover);
+    border-radius: var(--roundness);
+}
+.topSectionPlaying-1J5E4n {
+    background: transparent !important;
+}
+.topSectionSpotify-1lI0-P {
+    background: transparent !important;
+}
+.unicodeShortcut-15J8Ck {
+    background: transparent !important;
+    backdrop-filter: blur(var(--wallblur));
+}
+.contentWrapper-SvZHNd {
+    border-radius: var(--roundness);
+}
+.navButtonActive-1MkytQ {
+    background-color: transparent;
+    /* color: #fff; */
+    backdrop-filter: blur(var(--wallblur));
+}
+.item-2hkk8m {
+    background-color: var(--alert);
+}
+.theme-dark .autocomplete-1vrmpx {
+    background-color: transparent;
+    backdrop-filter: blur(var(--wallblur));
+}
+.theme-dark .selectorSelected-1_M1WV {
+    background-color: transparent;
+}
