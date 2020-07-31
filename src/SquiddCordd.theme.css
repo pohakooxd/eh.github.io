@@ -1,19 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Fondamento&display=swap');
-@import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap");
 @import url("https://www.thatgeekyweeb.is-dummy-thi.cc/src/import.data.css");
-@font-face {
-      font-family: 'Fondamento', cursive;
-  }
 :root {
-	--bg: url("https://media.discordapp.net/attachments/699685435198144553/731293853554049094/wallpaper3.png");
-    	--Chat-Font-Used: 'Fondamento', normal;
-      	--Chat-Font-Size: 15.5px;
-      	/* Here you can define properties for use with Glasscord. */
-      	/* Windows-specific properties */
-      	/* Blur mode. Available types: acrylic (strong blur), blurbehind (light blur), transparent */
-      	--glasscord-win-blur: blurbehind;
-      	/* Acrylic mode makes some computers pretty unresponsive when resizing/moving the window. We'll use "blurbehind" instead */
-      	--glasscord-win-performance-mode: true;
+      --bg: url("https://media.discordapp.net/attachments/699685435198144553/731293853554049094/wallpaper3.png");
+      /* Here you can define properties for use with Glasscord. */
+      /* Windows-specific properties */
+      /* Blur mode. Available types: acrylic (strong blur), blurbehind (light blur), transparent */
+      --glasscord-win-blur: blurbehind;
+      /* Acrylic mode makes some computers pretty unresponsive when resizing/moving the window. We'll use "blurbehind" instead */
+      --glasscord-win-performance-mode: true;
 
       /* macOS-specific properties */
       /* Vibrancy mode */
@@ -28,9 +21,6 @@
       /* Custom (forced) titlebar */
       /* native (default), windows, osx, linux (framed) */
       --glasscord-titlebar: native;
-
-      --font: 'Baloo2';
-
       --accentcolor: 94, 129, 172;
       /* blurple - default: 114,137,218 */
       --linkcolor: 136, 192, 208;
@@ -377,13 +367,6 @@
       background-color: var(--background-chatbox);
   }
   /* glasscord end */
-  :not([class="hljs"]):not(code) {
-      font-family: var(--Chat-Font-Used);
-  }
-
-  .markup:not(code) {
-      font-size: var(--Chat-Font-Size);
-  }
 
   .theme-dark {
       --background-primary: transparent;
