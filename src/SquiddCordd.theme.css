@@ -1154,3 +1154,6 @@ section.title-3qD0b-.container-1r6BKw.themed-ANHk51 {
 	height: auto;
 	margin: unset;
 }
+div#popout_100 {
+    backdrop-filter: blur(10px);
+}
