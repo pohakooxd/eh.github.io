@@ -4,29 +4,39 @@
 <title>BlurME!</title>
 </head>
 <body>
-<div></div>
+<link href="https://fonts.googleapis.com/css2?family=Chilanka&display=swap" rel="stylesheet">
+<div><center class="header-b">BlurME<hr class="blur-head"><center></div>
 <style> 
 body {
   font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 13px;
   background: url("https://cdn.discordapp.com/attachments/739070489514868767/739724355029958686/clouds.png");
 }
-
 div {
   background-color: rgba(255, 255, 255, 0.72);
   backdrop-filter: blur(10px);
   margin: auto;
   width: 800px;
   text-align: center;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
   border-radius: 25px;
-  box-shadow: rgba(0,0,0,0.2) 0px 1px 3px;
+  box-shadow: #fff 10px 10px 10px;
   height: 590px;
   position: relative;
   top: 50%;
   transform: translateY(10%);
 } 
+.header-b {
+  padding-top: 10px;
+  position: relative;
+  font-size: 50px;
+  font-family: 'Chilanka', bold;
+}
+.blur-head {
+ width: 70%;
+}
+* {
+  filter: blur(0.49px);
+}
 </style>
 </body>
 </html>
