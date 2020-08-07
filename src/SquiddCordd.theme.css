@@ -101,28 +101,23 @@
   .theme-dark {
       background-color: transparent;
   }
-
-  [class*="container-"] {
-      background-color: transparent;
-  }
-
-  .theme-dark .card-FDVird:before {
+.theme-dark .card-FDVird:before {
       background-color: #33363c90;
-  }
+}
 
-  .theme-dark {
+.theme-dark {
       background-color: #2f313650;
       border-color: #20222550;
-  }
+}
 
-  [class*="codeRedemptionRedirect-"] {
+[class*="codeRedemptionRedirect-"] {
       background-color: #2f313650;
       border-color: #20222550;
-  }
+}
 
-  .theme-dark {
+.theme-dark {
       background-color: transparent;
-  }
+}
 
   [class*="pageWrapper-"] {
       background-color: transparent;
@@ -1211,4 +1206,13 @@ nav.sidebar-CFHs9e * {
 }
 .top-28JiJ- .selected-3s45Ha.themed-OHr7kt.item-PXvHYJ, .top-28JiJ- .themed-OHr7kt.item-PXvHYJ:hover {
     border-radius: 5px;
+}
+.membersWrap-2h-GB4, .da-members {
+    box-shadow: none;
+    margin: 10px;
+    border-radius: 25px;
+    margin-top: 0;
+}
+main.chatContent-a9vAAp {
+    box-shadow: none;
 }
