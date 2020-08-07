@@ -1216,3 +1216,13 @@ nav.sidebar-CFHs9e * {
 main.chatContent-a9vAAp {
     box-shadow: none;
 }
+[class*="guildSection-"] {
+    background-color: var(--theme-trans);
+    backdrop-filter: blur(10px);
+    border-radius: 0 0 25px;
+}
+[class*="emojiSection-"] {
+    backdrop-filter: blur(10px);
+    background: var(--theme-trans);
+    border-radius: 25px 25px 0 0;
+}
