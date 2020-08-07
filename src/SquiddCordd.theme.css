@@ -1115,10 +1115,10 @@ div[class*=base-] {
   border-radius: 25px;
 }
 .flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.root-SR8cQa * {
-    color: var(--text-normal);
+    color: var(--text-normal) !important;
 }
 div#popout_69 * {
-  color: var(--text-normal)
+  color: var(--text-normal) !important;
 }
 .powercord-spotify .spotify-buttons button {
     color: lightpink !important;
