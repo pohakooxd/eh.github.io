@@ -1230,3 +1230,12 @@ main.chatContent-a9vAAp {
 .container-ZRw2kD {
     background: transparent;
 }
+code {
+    font-family: Consolas,Andale Mono WT,Andale Mono,Lucida Console,Lucida Sans Typewriter,DejaVu Sans Mono,Bitstream Vera Sans Mono,Liberation Mono,Nimbus Mono L,Monaco,Courier New,Courier,monospace;
+    font-size: 14px;
+    line-height: 16px;
+    border-left: dashed;
+    border-width: thin !important;
+    border-right: dashed;
+    background: var(--theme-trans);
+}
