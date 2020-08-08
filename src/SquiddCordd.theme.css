@@ -77,8 +77,10 @@
 	--scrollbar: #000;
 	--theme-trans: rgba(56, 56, 56, 0.47);
 	--color-spotify: lightsteelblue;
-  --status-fill: lightsteelblue;
-  --theme-trans-pop: rgba(46, 52, 64, 0.71);
+        --status-fill: lightsteelblue;
+        --theme-trans-pop: rgba(46, 52, 64, 0.71);
+	--theme-trans-header: rgba(56, 56, 56, 0.67);
+
 }
   [class*="scrollerThemed-2oenus.themedWithTrack-*"] {
       background-color: transparent;
@@ -445,6 +447,7 @@
       --status-fill: lightpink;
       --theme-trans: rgba(255, 255, 255, 0.3);
       --theme-trans-pop: rgba(242, 243, 245, 0.85);
+      --theme-trans-header: rgba(255, 255, 255, 0.67);
 }
 .members-1998pB, .members-1998pB>div {
     background-color: transparent !important;
@@ -1289,6 +1292,50 @@ img[alt] {
 }
 header.header-QKLPzZ {
     border-radius: 25px 25px 0 0;
+    background: var(--theme-trans-header) !important;
+    backdrop-filter: blur(10px);
+}
+[class*="topSectionNormal"] .activity-1ythUs {
+    background: var(--theme-trans-header);
+    border-radius: 0 0 25px 25px;
+    backdrop-filter: blur(10px);
+    margin-top: 0px;
+}
+[class*="topSectionPlaying"] .header-QKLPzZ {
+    border-radius: 25px;
+}
+[class*="topSectionPlaying"] .tabBarContainer-1s1u-z {
+    background: var(--theme-trans);
+    border-radius: 25px;
+    border-top: none;
+    backdrop-filter: blur(10px);
+    margin-top: 10px;
+}
+[class*="topSectionPlaying"] header.header-QKLPzZ {
+    border-radius: 25px;
+    background: var(--theme-trans-header) !important;
+    backdrop-filter: blur(10px);
+}
+[class*="topSectionSpotify"] .header-QKLPzZ {
+    border-radius: 25px;
+}
+[class*="topSectionSpotify"] .tabBarContainer-1s1u-z {
+    background: var(--theme-trans);
+    border-radius: 25px;
+    border-top: none;
+    backdrop-filter: blur(10px);
+    margin-top: 10px;
+}
+[class*="topSectionSpotify"] header.header-QKLPzZ {
+    border-radius: 25px;
+    background: var(--theme-trans-header) !important;
+    backdrop-filter: blur(10px);
+}
+.activityProfile-2bJRaP.activity-1ythUs {
+    border-radius: 25px;
     background: var(--theme-trans) !important;
     backdrop-filter: blur(10px);
+}
+.bodyAlignCenter-1KzvJk.body-ZAhrcj.flex-1O1GKY.alignCenter-1dQNNs {
+    background: transparent !important;
 }
