@@ -1339,3 +1339,15 @@ header.header-QKLPzZ {
 .bodyAlignCenter-1KzvJk.body-ZAhrcj.flex-1O1GKY.alignCenter-1dQNNs {
     background: transparent !important;
 }
+.container-1ov-mD img {
+    border-radius: 10px;
+}
+img.emoji {
+    border-radius: 0px;
+}
+.wrapper-2K4Z3k img {
+    border-radius: 10px;
+}
+.wrapperPaused-19pWuK.wrapper-2TxpI8 {
+    border-radius: 10px;
+}
