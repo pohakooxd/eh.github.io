@@ -1351,3 +1351,6 @@ img.emoji {
 .wrapperPaused-19pWuK.wrapper-2TxpI8 {
     border-radius: 10px;
 }
+img[alt*=":"] {
+    border-radius: unset;
+}
