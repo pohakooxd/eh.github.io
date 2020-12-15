@@ -6,7 +6,6 @@
 </head>
 <body>  
 <main id="main">
-  <div class="centered">
     <div id="AV" style="float:left;">
       <img src="//gravatar.com/avatar/0e6d2ea42ec500d7aa83bb85b5bbd793?s=200&?r=x">
       <div class="under">
@@ -41,7 +40,7 @@
       <div id="float" style="float: left;">
         <div class="github-card" data-github="ThatGeekyWeeb" data-width="400" data-height="" data-theme="medium"></div>
       </div>
-  </div>
+    </div>
 </main>
 </body>
 <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
@@ -56,7 +55,15 @@ body {
     max-height: 110vh;
     height: 90vh;
 }
-.centered {
+#AV {
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  z-index: 15;
+  left: 50%;
+  margin: -100px 0 0 -150px;
+}
+/* .centered {
   margin: auto;
   margin-top: 1px;
   border: 4px solid #a8328d;
@@ -67,7 +74,7 @@ body {
   width: 90vw;
   max-height: 100vh;
   height: 87vh;
-}
+} */
 * {
   border-radius: 10px;  
 }
@@ -99,8 +106,6 @@ body {
   float: left;
   border: 2px solid #a8328d;
   max-width: 67vw;
-  width: 67vw;
-  height: 100%;
   margin: 5px;
   margin-left: 10px;
   text-align: center;
