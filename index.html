@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Xanh+Mono:ital@1&display=swap" rel="stylesheet">
@@ -41,9 +42,7 @@
 </body>
 <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
 <script>
-if (window.orientation !== undefined) {
-  document.getElementById("main-left").style.display = "none";
-}
+    // Placeholder
 </script>
 <style>
 body {
@@ -71,6 +70,9 @@ main#main-left {
     float: left;
     margin-right: -80px;
     margin-top: -25px;
+}
+@media (max-width : 320px) {
+    #main-left {display: none !important} /*Disables the side block if on mobile*/
 }
 * {
   border-radius: 10px;  
