@@ -6,8 +6,13 @@
 </head>
 <body>  
 <main id="main">
+    <div class="right_bar" style="overflow: hidden;">
+      <div style="float: left;" class="github-card" data-github="ThatGeekyWeeb/Spotbash" data-width="400" data-height="150" data-theme="default" style="padding-top: 50px;"></div>
+      <div style="float: left;" class="github-card" data-github="ThatGeekyWeeb/SpotyRIP" data-width="400" data-height="150" data-theme="default"></div>
+      <div style="float: left;" class="github-card" data-github="ThatGeekyWeeb/blobash" data-width="400" data-height="150" data-theme="default"></div>
+    </div>
     <div id="AV" style="margin:auto; float:left">
-      <img src="https://gravatar.com/avatar/0e6d2ea42ec500d7aa83bb85b5bbd793?s=200&?r=x">
+      <img src="https://gravatar.com/avatar/0e6d2ea42ec500d7aa83bb85b5bbd793?s=150&?r=x" style="margin-left: 15px">
       <div class="under">
         <p id="name">That(Geeky)Weeb</p>
         <p class="title" style="margin-top: -15px; margin-left: -8px;">Fluent in:<br></p>
@@ -15,12 +20,6 @@
           Shell (POSIX & Bash)<br>
           JS, HTML, CSS<br>
           CLI (Linux Terminal Usage)
-        </p>
-        <p class="title" style="margin-top: -15px;">Understands:<br></p>
-        <p class="span" style="margin-top: -15px; margin-bottom: 23px;">
-          Headers<br>
-          Library Linking<br>
-          Ruby<br>
         </p>
         <p class="title" style="margin-top: -15px; margin-left: -2px;">Interests:<br></p>
         <p class="span" style="margin-top: -15px;">
@@ -32,18 +31,13 @@
             Being Pan<br>
         </p>
       </div> 
-    </div> <!-- Av ID End-->
-    <div class="right_bar" style="overflow: hidden;">
-      <div style="float: left;" class="github-card" data-github="ThatGeekyWeeb/Spotbash" data-width="400" data-height="150" data-theme="default"></div>
-      <div style="float: left;" class="github-card" data-github="ThatGeekyWeeb/SpotyRIP" data-width="400" data-height="150" data-theme="default"></div>
-      <div style="float: left;" class="github-card" data-github="ThatGeekyWeeb/blobash" data-width="400" data-height="150" data-theme="default"></div>
     </div>
 </main>
 </body>
 <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
 <style>
 body {
-  background: url("/im-crying.png");  
+  background: url("https://github.com/ThatGeekyWeeb/Squid-Dots/raw/master/wallpapers/spin.png");  
   margin: 20px;
 }
 #main {
@@ -53,7 +47,7 @@ body {
     height: 90vh;
     display: table;
 }
-#main div {
+#main div.right_bar {
     display: table-cell;
     vertical-align: middle;
 }
@@ -71,6 +65,11 @@ body {
 } */
 * {
   border-radius: 10px;  
+}
+#AV{
+    display: table-cell;
+    vertical-align: middle;
+    max-width: 450px;
 }
 .under {
   margin-top: 10px;
@@ -98,12 +97,9 @@ body {
   font-size: large;
 }
 .right_bar {
-  /* float: left; */
-  border: 2px solid #a8328d;
   margin: auto;
   text-align: center;
   font-size: 25px;
-  display: inline-block;
   max-width: 450px;
 }
 iframe {
